@@ -11,7 +11,7 @@
 .container{
     width: 100%;
     height: 100vh;
-    background: black;
+    background: #262729;
     /* background: #f2f3f7; */
     display: flex;
     justify-content: center;
@@ -19,8 +19,8 @@
 }
 
 .calculator{
-    background: #f2f3f7;
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: #d1d5de;
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
     backdrop-filter: blur( 20px );
     -webkit-backdrop-filter: blur( 20px );
     border-radius: 20px;
@@ -37,10 +37,9 @@
     box-shadow: -8px -8px 15px rgb(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
     background: transparent;
     font-size: 20px;
-    color: #fff;
     cursor: pointer;
     margin: 5px;
-    color: black
+    color: black;
 }
 
 form .display{
@@ -61,6 +60,11 @@ form .display input{
 } */
 
 form input.operator{
+    background-color: #d1d5de;
+    color: black;
+}
+
+form input.num{
     background-color: black;
-    color: white;
+    color: #f2f3f7;
 }
